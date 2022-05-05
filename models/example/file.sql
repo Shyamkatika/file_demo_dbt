@@ -1,1 +1,1 @@
-select id from snowflake_dbt.public.sales
+select id,product from snowflake_dbt.public.sales
