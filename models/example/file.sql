@@ -1,0 +1,1 @@
+select id from snowflake_dbt.public.sales
