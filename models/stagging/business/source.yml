@@ -1,0 +1,9 @@
+version:2
+sources:
+    - name:db_dbt
+    database:snowflake_dbt
+    schema:db_dbt
+    tables:
+        - name:sales
+        - name:product
+        - name:sales_product
