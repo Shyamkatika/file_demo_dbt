@@ -12,4 +12,12 @@ product_test as (
     select * from {{ ref('stage_product')}}
 )
 
-select * from product_test
+select p.batch,s.id,s.product,s.cost from sales_test s,product_test p
+
+
+
+
+
+
+
+
