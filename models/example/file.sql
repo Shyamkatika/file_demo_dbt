@@ -4,6 +4,12 @@
     )
 }}
 
+with sales_test as (
+    select * from {{ ref('stage_sales')}}
+),
 
+product_test as (
+    select * from {{ ref('stage_product')}}
+)
 
-select id,product from snowflake_dbt.public.sales
+select * from product_test
