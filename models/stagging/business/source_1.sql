@@ -1,1 +1,0 @@
-select * from {{source('db_dbt','sales')}}

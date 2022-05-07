@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: db_dbt
+    database: snowflake_dbt
+    schema: db_dbt
+    tables:
+      - name: sales_product
+      - name: sales
+      - name: product
+      - name: stage_sales
+      - name: stage_product
+        loaded_at_field:
+       
+        
