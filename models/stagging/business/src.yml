@@ -10,6 +10,7 @@ sources:
       - name: product
       - name: stage_sales
       - name: stage_product
+      - name: check
         loaded_at_field: _etl_loaded_at
         freshness:
           warn_after: {count: 12, period: hour}
