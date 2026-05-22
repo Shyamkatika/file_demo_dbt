@@ -1,0 +1,11 @@
+CUSTOMER_ID,CUSTOMER_NAME,CITY,LOYALTY_STATUS
+CUST001,Arjun,Chennai,Gold
+CUST002,Meera,Bengaluru,Bronze
+CUST003,Rahul,Pune,Bronze
+CUST004,Sita,Chennai,Bronze
+CUST005,Vikram,Pune,Silver
+CUST006,Anjali,Pune,Silver
+CUST007,Karthik,Chennai,Gold
+CUST008,Divya,Bengaluru,Bronze
+CUST009,Rohan,Mumbai,Gold
+CUST010,Pooja,Hyderabad,Gold
