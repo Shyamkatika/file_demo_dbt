@@ -1,0 +1,7 @@
+PRODUCT_ID,PRODUCT,CATEGORY,STOCK_QTY,WAREHOUSE
+P001,Laptop,Electronics,50,WH_HYD
+P002,Mobile,Electronics,120,WH_BLR
+P003,Headphones,Accessories,200,WH_CHE
+P004,Keyboard,Accessories,80,WH_MUM
+P005,Monitor,Electronics,45,WH_PUN
+P006,Mouse,Accessories,150,WH_HYD
