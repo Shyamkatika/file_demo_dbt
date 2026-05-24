@@ -1,0 +1,9 @@
+{% macro sales_metrics() %}
+
+AVG(TOTAL_SALES)  AS AVG_TOTAL_SALES,
+MAX(TOTAL_SALES)  AS MAX_TOTAL_SALES,
+
+AVG(QUANTITY)     AS AVG_QUANTITY,
+MAX(QUANTITY)     AS MAX_QUANTITY
+
+{% endmacro %}
