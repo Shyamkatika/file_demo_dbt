@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: curated
     database: TEST_DB
-    schema: CURATED
+    schema: RAW_DATA
 
     tables:
       - name: sales

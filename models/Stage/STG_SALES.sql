@@ -1,4 +1,3 @@
-{{ config(materialized='view') }}
 
 select
     ORDER_ID,ORDER_DATE,PRODUCT,REGION,SALESPERSON,QUANTITY,UNIT_PRICE,TOTAL_SALES

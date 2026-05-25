@@ -39,17 +39,17 @@ models:
     Stage:
       materialized: table
     sales:
-      database: SALES_DB
+      database: TEST_DB
       schema: SALES_SCHEMA
       materialized: table
 
-    inventory:
-      database: INVENTORY_DB
-      schema: INVENTORY_SCHEMA
-      materialized: table
+    # inventory:
+    #   database: INVENTORY_DB
+    #   schema: INVENTORY_SCHEMA
+    #   materialized: table
 
-    customer:
-      database: CUSTOMER_DB
-      schema: CUSTOMER_SCHEMA
-      materialized: table
+    # customer:
+    #   database: CUSTOMER_DB
+    #   schema: CUSTOMER_SCHEMA
+    #   materialized: table
 
