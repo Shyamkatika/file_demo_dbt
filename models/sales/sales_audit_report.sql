@@ -7,7 +7,7 @@
 
             "
 
-            INSERT INTO SALES_DB.CURATED_SALES_SCHEMA.SALES_AUDIT
+            INSERT INTO TEST_DB.RAW_DATA.SALES_AUDIT
             (
                 MODEL_NAME,
                 LOAD_DATE,
@@ -32,7 +32,7 @@
 
             "
 
-            UPDATE SALES_DB.CURATED_SALES_SCHEMA.SALES_AUDIT 
+            UPDATE TEST_DB.RAW_DATA.SALES_AUDIT 
 
             SET
                 POST_TOTAL_RECORDS = src.POST_TOTAL_RECORDS,
