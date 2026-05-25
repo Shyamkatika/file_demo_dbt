@@ -1,0 +1,9 @@
+PRODUCT_ID,PRODUCT,CATEGORY,STOCK_QTY,WAREHOUSE
+2001,Laptop,Electronics,50,WH-A
+2002,Mouse,Electronics,200,WH-A
+2003,Keyboard,Electronics,150,WH-B
+2004,Office Chair,Furniture,40,WH-C
+2005,Desk,Furniture,25,WH-C
+2006,Monitor,Electronics,80,WH-B
+2007,Printer,Office Supplies,30,WH-D
+2008,Notebook,Office Supplies,500,WH-D

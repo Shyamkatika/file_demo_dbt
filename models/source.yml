@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: curated
+    database: TEST_DB
+    schema: CURATED
+
+    tables:
+      - name: sales
+        description: Sales transaction table
+
+      - name: customer
+        description: Customer master table
+      - name: inventory
+        description: inventory related information
